@@ -1,0 +1,47 @@
+ITERATION 1:
+
+0 50 0
+0 0 100
+
+ITERATION 2:
+
+40 50 0
+0 80 100
+
+ITERATION 3:
+
+40 64 0
+64 80 100
+
+ITERATION 4:
+
+51.2 64 0
+64 80 100
+
+ITERATION 5:
+
+51.2 64 0
+64 80 100
+
+OPTIMAL POLICY:
+
+s1 -> s2
+s2 -> s5
+s3 -> s3
+s4 -> s5
+s5 -> s6
+s6 -> s3
+
+OPTIMAL ROUTE STARTING FROM INITIAL STATE 1:
+
+s1 -> s2 -> s5 -> s6 -> s3
+
+Question 1:
+5 iterations (see above)
+
+Question 2:
+s1 -> s2 -> s5 -> s6 -> s3 (see above)
+
+Question 3:
+Yes - will need to scale up the rewards by a constant factor (for example doubling). 
+The values in V* will be changed but the optimal policy remains unchanged.
